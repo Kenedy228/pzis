@@ -19,6 +19,28 @@
 # Локальный кэш инструментов
 /.token-optimizer/
 
+# Локальные файлы редакторов и IDE
+.vscode/
+.idea/
+.vs/
+.fleet/
+.zed/
+.history/
+*.code-workspace
+*.iml
+*.sublime-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Временные файлы и резервные копии редакторов
+*.swp
+*.swo
+*~
+.#*
+\#*#
+
 # Файлы ОС
 .DS_Store
 Thumbs.db
